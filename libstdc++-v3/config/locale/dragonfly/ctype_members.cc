@@ -138,6 +138,9 @@ _GLIBCXX_BEGIN_NAMESPACE_VERSION
 /*
  * Taken verbatim from config/locale/generic/ctype_members.cc.  DragonFly
  * implements these in config/os/bsd/dragonfly/ctype_inline.h.
+ *
+ * The mask type and individual mask bits are defined in
+ * libstdc++-v3/config/os/solaris/ctype_base.h to match libc's ctype mask bits.
  */
 #if defined(__illumos__)
   bool
